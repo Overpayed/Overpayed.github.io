@@ -1,0 +1,28 @@
+body {
+  background: #967878;
+  background: radial-gradient(circle,rgb(75, 60, 60) 0%, rgba(27, 24, 24, 1) 40%, rgba(27, 24, 24, 1) 100%);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#logo:active {
+  rotate: 1deg;
+}
+
+.img{
+  height: 140px;
+  margin-top: 8px;
+  transition: height 0.2s;
+}
+
+.img:hover {
+  height: 160px;
+
+  -webkit-backdrop-filter: blur(15px) saturate(3);
+  backdrop-filter: blur(15px) saturate(3);
+
+  transition: height 0.2s;
+}
+
+@media only screen and (max-width: 653px) {
+  .img {height: 165px; width: 638px;}
+}

@@ -19,7 +19,8 @@ body {
   transition: height 0.2s;
 }
 
-@media only screen and (max-width: 653px) {
-  .img {height: 165px; width: 638px;}
-  .img:hover {height: 170px;}
+@media only screen and (max-width: 655px) {
+  .img {height: 100px;} 
+  .img:hover {height: 100px;}
+  #logo{height: 80px;}
 }

@@ -27,9 +27,9 @@
 
   <script>
 
-  $('img')
+  $('#Logo')
     .data('counter', 0)
-    .click(function() {
+    .mousedown(function() {
         var counter = $(this).data('counter');
         $(this).data('counter', counter + 1);
 

@@ -2,6 +2,7 @@ body {
   background: #1b1818;
   background: radial-gradient(circle,rgb(75, 60, 60) 0%, rgba(27, 24, 24, 1) 40%, rgba(27, 24, 24, 1) 100%);
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  user-select: none;
 }
 
 #logo:active {

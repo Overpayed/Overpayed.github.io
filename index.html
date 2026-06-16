@@ -11,12 +11,12 @@
 
 <div class="CoolSam999">
   
-  <center class="Logo"> <img draggable = false id="Logo" src="/content/logo.png" height="140" style="margin-top: 20"/> </center>
-  <center class="YouTube"> <a draggable = false href="https://youtube.com/@Samm"> <img id="img" draggable = false class="img" src="/content/youtube.png"/> </a> </center>
-  <center class="Twitter"> <a draggable = false href="https://x.com/CoolSam9991"> <img id="img2" draggable = false class="img" src="/content/twitter.png"/> </a> </center>
-  <center class="justin.tv"> <a draggable = false href="https://twitch.tv/CoolSam9991"> <img id="img3" draggable = false class="img" src="/content/twitch.png"/> </a> </center>
-  <center class="Bluesky"> <a draggable = false href="https://bsky.app/profile/coolsam999.bsky.social"> <img id="img4" draggable = false class="img" src="/content/bluesky.png"/> </a> </center>
-  <center class="Reddit"> <a draggable = false href="https://reddit.com/r/coolsam999"> <img id="img5" draggable = false class="img" src="/content/reddit.png"/> </a> </center>
+  <center id="Logo"> <img draggable = false id="Logo" src="/content/logo.png" height="140" style="margin-top: 20"/> </center>
+  <center id="YouTube"> <a draggable = false href="https://youtube.com/@Samm"> <img draggable = false class="img" src="/content/youtube.png"/> </a> </center>
+  <center id="Twitter"> <a draggable = false href="https://x.com/CoolSam9991"> <img draggable = false class="img" src="/content/twitter.png"/> </a> </center>
+  <center id="justin.tv"> <a draggable = false href="https://twitch.tv/CoolSam9991"> <img draggable = false class="img" src="/content/twitch.png"/> </a> </center>
+  <center id="Bluesky"> <a draggable = false href="https://bsky.app/profile/coolsam999.bsky.social"> <img draggable = false class="img" src="/content/bluesky.png"/> </a> </center>
+  <center id="Reddit"> <a draggable = false href="https://reddit.com/r/coolsam999"> <img draggable = false class="img" src="/content/reddit.png"/> </a> </center>
 
 </div>
 
@@ -41,6 +41,26 @@
     $("body").on("contextmenu",function(e){
       return false;
     });
+
+        document.getElementById('YouTube').oncontextmenu = function() {
+      window.location.href = "https://youtube.com/@Samm";
+    }
+
+    document.getElementById('Twitter').oncontextmenu = function() {
+      window.location.href = "https://x.com/CoolSam9991";
+    }
+
+    document.getElementById('justin.tv').oncontextmenu = function() {
+      window.location.href = "https://twitch.tv/CoolSam9991";
+    }
+
+    document.getElementById('Bluesky').oncontextmenu = function() {
+      window.location.href = "https://bsky.app/profile/coolsam999.bsky.social";
+    }
+
+    document.getElementById('Reddit').oncontextmenu = function() {
+      window.location.href = "https://reddit.com/r/coolsam999";
+    }
 
   </script>
 
